@@ -1,4 +1,11 @@
 
+## command  
+1. npm i 
+2. run npm dev
+3. http://localhost:5174/
+
+
+
 # Note Taking Application
 
 ## Objective
