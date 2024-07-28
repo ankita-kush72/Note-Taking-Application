@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    image: httpd:latest
+    container_name: apache_server
+    ports:
+      - "8081:80"
+    volumes:
+      - ./dist:/usr/local/apache2/htdocs/
+      # - ./conf:/usr/local/apache2/conf/
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    driver: bridge

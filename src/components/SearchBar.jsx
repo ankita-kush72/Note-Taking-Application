@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoSearchOutline } from "react-icons/io5";
 
 const SearchBar = ({ setSearchQuery }) => {
   const handleSearchChange = (event) => {
@@ -9,8 +10,9 @@ const SearchBar = ({ setSearchQuery }) => {
     <div className="search-bar">
       <input
         type="text"
-        placeholder="Search notes..."
+        placeholder=  "Search notes..."
         onChange={handleSearchChange}
+        
       />
     </div>
   );

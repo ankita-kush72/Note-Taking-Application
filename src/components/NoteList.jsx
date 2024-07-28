@@ -1,13 +1,13 @@
 import React from 'react';
 import NoteItem from './NoteItem';
 
-const NoteList = ({ notes, deleteNote, setEditingNote }) => {
+const NoteList = ({ notes, deleteNote, openEditNote }) => {
   if (!Array.isArray(notes)) {
     return <div>Error: Notes should be an array.</div>;
   }
 
   return (
-    <div>
+    <div className='node-list'>
       {notes.length === 0 ? (
         <p>No notes available.</p>
       ) : (
@@ -16,7 +16,7 @@ const NoteList = ({ notes, deleteNote, setEditingNote }) => {
             key={note.id}
             note={note}
             deleteNote={deleteNote}
-            setEditingNote={setEditingNote}
+            openEditNote={openEditNote}
           />
         ))
       )}

@@ -1,17 +1,30 @@
 
-## command  
-1. npm i 
-2. run npm dev
+# Documentation for Note Taking Application
+
+## Command to run project in local  
+
+### Install project dependencies
+1. ```npm i``` 
+
+### Start project for development
+2. ```npm run dev```
+
+## Access project using below url
 3. http://localhost:5174/
 
+## Build project for deployment
+4. ```npm run build```
+
+## Access project using Apache server in Docker
+5. ```docker-compose -f docker-compose-apache.yml up```
 
 
-# Note Taking Application
+## Note Taking Application Overview
 
-## Objective
+### Objective
     Develop a simplified web application for taking notes that utilizes local storage for data persistence. This application will demonstrate front-end development skills including CRUD operations, pagination, and a responsive design.
 
-## Project Overview
+### Project Overview
     The "Simple Note Taking App" will allow users to:
     
    
@@ -19,45 +32,57 @@
 
 ## Pagination :
 
-<img src="./src/image/Screenshots/image1.png">
+<img src="./src/image/Screenshots/showNotes1.png">
 
-<img src="./src/image/Screenshots/image2.png">
+<img src="./src/image/Screenshots/showNotes2.png">
 
 ## ADD :
 
 ### Add new Notes
 
-<img src="./src/image/Screenshots/image3.png">
+<p>Add a new Note. Clicked left side button open add new list from</p>
 
-<img src="./src/image/Screenshots/image4.png">
+<img src="./src/image/Screenshots/addNote3.png">
+
+<p>List note is new</p>
+
+<img src="./src/image/Screenshots/addNote2.png">
+
+<p>After adding new note and Show</p>
+
+<img src="./src/image/Screenshots/addNote1.png">
+
 
 ## SEARCH :
 
 ### Search through notes.
 
-<img src="./src/image/Screenshots/image5.png">
+<p>Search Title Number 3 </p>
 
-<img src="./src/image/Screenshots/image6.png">
+<img src="./src/image/Screenshots/searchNote1.png">
+
+<img src="./src/image/Screenshots/searchNote2.png">
 
 ## UPDATE :
 
-### Before updating notes
+### Before updating notes 10
 
-<img src="./src/image/Screenshots/image21.png">
+<img src="./src/image/Screenshots/Update0.png">
+<img src="./src/image/Screenshots/Update1.png"> 
 
 ### updating  Title 
-<img src="./src/image/Screenshots/image22.png"> 
-
+<img src="./src/image/Screenshots/Update2.png"> 
+<img src="./src/image/Screenshots/Update3.png"> 
 ### After updating Title
 <img src="./src/image/Screenshots/image23.png">
 
 ## DELETE :
 
 ### Before Deleting notes
-<img src="./src/image/Screenshots/image24.png">
+<img src="./src/image/Screenshots/deleteNote1.png">
 
 ### After Deleting Note Title 5 and Note Title 6
-<img src="./src/image/Screenshots/image25.png">
+<img src="./src/image/Screenshots/deleteNote2.png">
 
 
 
