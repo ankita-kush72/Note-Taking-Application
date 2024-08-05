@@ -74,7 +74,7 @@
 <img src="./src/image/Screenshots/Update2.png"> 
 <img src="./src/image/Screenshots/Update3.png"> 
 ### After updating Title
-<img src="./src/image/Screenshots/image23.png">
+<img src="./src/image/Screenshots/Update1.png">
 
 ## DELETE :
 
